@@ -1,0 +1,8 @@
+<Alloy>
+	<TabGroup>
+		<Menu platform="android">
+			<MenuItem id="addTreinoMenu" title="add" onClick="addTreino"></MenuItem>
+		</Menu>
+		<Require src="treinos"></Require>
+	</TabGroup>
+</Alloy>

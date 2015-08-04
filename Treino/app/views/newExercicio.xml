@@ -1,0 +1,22 @@
+<Alloy>
+	<Window> 
+		<RightNavButton platform="ios">
+			<Button id="closeButton"
+			onClick="close"></Button>
+		</RightNavButton>
+		
+		<Label id="idExDescricao"/>
+		<TextField class="top20" id="exercicioDescTextField"></TextField>
+		
+		<Label id="idLabelSeries"/>	
+		<TextField class="top20" id="exercicioSerieTextField"></TextField>
+		
+		<Label id="idLabelRepet"/>
+		<TextField class="top20" id="exercicioReptTextField"></TextField>
+		
+		<Label id="idLabelPeso"/>
+		<TextField class="top20" id="exercicioPesoTextField"></TextField>
+		
+		<Button onClick="save" id="saveButton" title="save" class="top20 defaultButton"></Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,18 @@
+<Alloy>
+	<Window>
+		<Label id="idLabelExDescricao" font="10"></Label>
+			<Label id="idExDescricao" class="top20"></Label>
+		<Label id="idSeries"></Label>
+			<Label id="idLabelSeries" class="top20"></Label>
+		<Label id="idRepet"></Label>
+			<Label id="idLabelRepet" class="top20"></Label>
+		<Label id="idPeso"></Label>
+			<Label id="idLabelPeso" class="top20"></Label>
+		
+		<ImageView id="photoImageView" class="top20"></ImageView>
+		<Button id="photoButton" onClick="takePhoto" 
+			class="top20 defaultButton"></Button>
+		<Button id="deleteButton" class="top20 defaultButton"
+			onClick="remove"></Button>
+	</Window>
+</Alloy>

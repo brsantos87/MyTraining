@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="treinoDetailsWindow">
+		<Label id="treinoDetails" class="top20"></Label>
+  		<Button id="addEx" onClick="addExercicio"></Button>
+		<Button id="idDeleteTreino" onClick="deleteTreino"></Button>
+		
+		<TableView 
+			dataCollection="Exercicios" onClick="showDetails"
+			dataFilter="exerciciosFilter">
+			<TableViewSection id="exerciciosTabViewSec" headerTitle="Exercicios   | Series    | Repeticao  |   Peso">
+				<TableViewRow id="idListExercicios" title="{descricao} - {qtdSerie} - {qtdRepeticao} - {peso}" ></TableViewRow>
+			</TableViewSection>
+		</TableView>
+	</Window>
+</Alloy>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="delete">Delete</string>
+	<string name="add">Add</string>
+	<string name="close">Close</string>
+	<string name="save">Save</string>	
+	<string name="add_photo">Add Photo</string>
+	<string name="camera_error">Camera Error</string>
+	<string name="camera_error_details">Your device must have a camera to add a photo</string>	
+	<string name="geo_error">Geolocation Off</string>
+	<string name="geo_error_details">Geolocation is turned off on this device.  Unable to determine location.</string>
+	<string name="map_button">Show On Map</string>
+	
+	<string name="nome_exercicio">Name Exercice</string>
+	<string name="qtd_serie">Qauntity series</string>
+	<string name="qtd_repeticao">Repeat amount</string>
+	<string name="peso">Weight</string>
+	<string name="delete_treino">Delete Training</string>
+	
+	<string name="nome_categoria">Category Name</string>
+	<string name="nome_treino">Training Name</string>
+
+</resources>

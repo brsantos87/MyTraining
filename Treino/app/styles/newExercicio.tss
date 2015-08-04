@@ -1,0 +1,22 @@
+
+"#idExDescricao":{
+	layout:'vertical',
+	left:30
+	
+}
+		
+"#idExDescricao":{
+	textid:'nome_exercicio'
+}
+"#idLabelSeries":{
+	textid:'qtd_serie'
+}
+"#idLabelRepet":{
+	textid:'qtd_repeticao'
+}
+"#idLabelPeso":{
+	textid:'peso'
+}
+"#saveButton":{
+	titleid:'save'
+}

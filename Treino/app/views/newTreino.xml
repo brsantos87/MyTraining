@@ -1,0 +1,13 @@
+<Alloy>
+	<Window> 
+		<RightNavButton platform="ios">
+			<Button id="closeButton"
+			onClick="close"></Button>
+		</RightNavButton>
+		<Label id="idTreinoField"></Label>
+			<TextField class="top20" id="treinoTextField"></TextField>
+		<Label id="idCategoriaField"></Label>
+			<TextField class="top20" id="categoriaTextField"></TextField>
+		<Button onClick="save" id="saveButton" class="top20 defaultButton"></Button>
+	</Window>
+</Alloy>

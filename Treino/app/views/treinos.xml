@@ -1,0 +1,13 @@
+<Alloy>
+	<Tab id="treinosTab">
+		<Window id="treinosWindow">
+			<RightNavButton platform="ios">
+				<Button id="addTreinoButton" onClick="addTreino"></Button>
+			</RightNavButton>
+			<TableView onClick="showDetails" 
+				dataCollection="Treinos">
+				<TableViewRow rowid="{alloy_id}" title="{descricao}"></TableViewRow>
+			</TableView>			
+		</Window>
+	</Tab>
+</Alloy>

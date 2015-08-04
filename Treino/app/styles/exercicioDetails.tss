@@ -1,0 +1,19 @@
+
+"#deleteButton":{
+	titleid:'delete'
+}
+"#photoButton":{
+	titleid:'add_photo'
+}
+"#idLabelExDescricao":{
+	textid:'nome_exercicio'
+}
+"#idSeries":{
+	textid:'qtd_serie'
+}
+"#idRepet":{
+	textid:'qtd_repeticao'
+}
+"#idPeso":{
+	textid:'peso'
+}
